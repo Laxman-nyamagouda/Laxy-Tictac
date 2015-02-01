@@ -14,6 +14,12 @@
 		5331D38F1A1721BF00078139 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5331D38E1A1721BF00078139 /* Images.xcassets */; };
 		5331D3921A1721BF00078139 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5331D3901A1721BF00078139 /* LaunchScreen.xib */; };
 		5331D39E1A1721BF00078139 /* TicTacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5331D39D1A1721BF00078139 /* TicTacTests.m */; };
+		53524D6C1A3D639100DA8F9C /* TicTacModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53524D6B1A3D639100DA8F9C /* TicTacModel.m */; };
+		538186051A3E9D9100187757 /* Read_Me.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 538186041A3E9D9100187757 /* Read_Me.rtf */; };
+		5386C97C1A3E034700DB6F53 /* WinLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 5386C97B1A3E034700DB6F53 /* WinLogic.m */; };
+		53AC2CF01A33F9A800F984FC /* O1.png in Resources */ = {isa = PBXBuildFile; fileRef = 53AC2CEE1A33F9A800F984FC /* O1.png */; };
+		53AC2CF11A33F9A800F984FC /* X1.png in Resources */ = {isa = PBXBuildFile; fileRef = 53AC2CEF1A33F9A800F984FC /* X1.png */; };
+		AD9CADFB1A337DAD00F67798 /* TicTacCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9CADFA1A337DAD00F67798 /* TicTacCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,17 @@
 		5331D3971A1721BF00078139 /* TicTacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5331D39C1A1721BF00078139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5331D39D1A1721BF00078139 /* TicTacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacTests.m; sourceTree = "<group>"; };
+		53524D6A1A3D639100DA8F9C /* TicTacModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacModel.h; sourceTree = SOURCE_ROOT; };
+		53524D6B1A3D639100DA8F9C /* TicTacModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicTacModel.m; sourceTree = SOURCE_ROOT; };
+		538186041A3E9D9100187757 /* Read_Me.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Read_Me.rtf; sourceTree = "<group>"; };
+		5381860F1A3EBA4900187757 /* TicTac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TicTac-Prefix.pch"; sourceTree = "<group>"; };
+		538186101A3EBA6B00187757 /* TicTacConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicTacConstants.h; sourceTree = SOURCE_ROOT; };
+		5386C97A1A3E034700DB6F53 /* WinLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WinLogic.h; path = ../WinLogic.h; sourceTree = "<group>"; };
+		5386C97B1A3E034700DB6F53 /* WinLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WinLogic.m; path = ../WinLogic.m; sourceTree = "<group>"; };
+		53AC2CEE1A33F9A800F984FC /* O1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O1.png; sourceTree = "<group>"; };
+		53AC2CEF1A33F9A800F984FC /* X1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X1.png; sourceTree = "<group>"; };
+		AD9CADF91A337DAD00F67798 /* TicTacCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacCell.h; sourceTree = "<group>"; };
+		AD9CADFA1A337DAD00F67798 /* TicTacCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicTacCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +100,13 @@
 			children = (
 				5331D3851A1721BF00078139 /* AppDelegate.h */,
 				5331D3861A1721BF00078139 /* AppDelegate.m */,
-				5331D3881A1721BF00078139 /* ViewController.h */,
-				5331D3891A1721BF00078139 /* ViewController.m */,
-				5331D38B1A1721BF00078139 /* Main.storyboard */,
+				538186101A3EBA6B00187757 /* TicTacConstants.h */,
+				538186081A3EA02D00187757 /* Controller */,
+				538186071A3E9F6F00187757 /* Views */,
+				538186061A3E9F3300187757 /* Model */,
 				5331D38E1A1721BF00078139 /* Images.xcassets */,
 				5331D3901A1721BF00078139 /* LaunchScreen.xib */,
+				534DABF71A35B72C000BC704 /* Images */,
 				5331D3811A1721BF00078139 /* Supporting Files */,
 			);
 			path = TicTac;
@@ -96,6 +115,8 @@
 		5331D3811A1721BF00078139 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				538186041A3E9D9100187757 /* Read_Me.rtf */,
+				5381860F1A3EBA4900187757 /* TicTac-Prefix.pch */,
 				5331D3821A1721BF00078139 /* Info.plist */,
 				5331D3831A1721BF00078139 /* main.m */,
 			);
@@ -117,6 +138,45 @@
 				5331D39C1A1721BF00078139 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		534DABF71A35B72C000BC704 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				53AC2CEE1A33F9A800F984FC /* O1.png */,
+				53AC2CEF1A33F9A800F984FC /* X1.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		538186061A3E9F3300187757 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53524D6A1A3D639100DA8F9C /* TicTacModel.h */,
+				53524D6B1A3D639100DA8F9C /* TicTacModel.m */,
+				5386C97A1A3E034700DB6F53 /* WinLogic.h */,
+				5386C97B1A3E034700DB6F53 /* WinLogic.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		538186071A3E9F6F00187757 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD9CADF91A337DAD00F67798 /* TicTacCell.h */,
+				AD9CADFA1A337DAD00F67798 /* TicTacCell.m */,
+				5331D38B1A1721BF00078139 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		538186081A3EA02D00187757 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5331D3881A1721BF00078139 /* ViewController.h */,
+				5331D3891A1721BF00078139 /* ViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +259,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53AC2CF11A33F9A800F984FC /* X1.png in Resources */,
 				5331D38D1A1721BF00078139 /* Main.storyboard in Resources */,
+				53AC2CF01A33F9A800F984FC /* O1.png in Resources */,
 				5331D3921A1721BF00078139 /* LaunchScreen.xib in Resources */,
+				538186051A3E9D9100187757 /* Read_Me.rtf in Resources */,
 				5331D38F1A1721BF00078139 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,8 +283,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5331D38A1A1721BF00078139 /* ViewController.m in Sources */,
+				5386C97C1A3E034700DB6F53 /* WinLogic.m in Sources */,
+				53524D6C1A3D639100DA8F9C /* TicTacModel.m in Sources */,
 				5331D3871A1721BF00078139 /* AppDelegate.m in Sources */,
 				5331D3841A1721BF00078139 /* main.m in Sources */,
+				AD9CADFB1A337DAD00F67798 /* TicTacCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,12 +346,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TicTac/TicTac-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -321,11 +389,13 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TicTac/TicTac-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -343,7 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = TicTac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TicTac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +485,7 @@
 				5331D3A31A1721BF00078139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5331D3A41A1721BF00078139 /* Build configuration list for PBXNativeTarget "TicTacTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +494,7 @@
 				5331D3A61A1721BF00078139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
