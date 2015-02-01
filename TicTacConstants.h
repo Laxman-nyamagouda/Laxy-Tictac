@@ -8,7 +8,7 @@
 
 #ifndef TicTac_TicTacConstants_h
 #define TicTac_TicTacConstants_h
-//Laxman
+//Laxman Nyamagouda
 #define ROW @"Row"
 #define COL @"Column"
 #define D1 @"Diagonal1"
